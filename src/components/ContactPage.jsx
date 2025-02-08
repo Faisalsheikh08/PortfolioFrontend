@@ -56,7 +56,7 @@ export default function ContactPage() {
         </div>
 
         <div className="contact-form-container">
-          <h2>Send us a message 🚀</h2>
+          <h2>Send a message 🚀</h2>
           <br />
           {status && <p className="message">{status}</p>}
           <form onSubmit={handleSubmit}>
