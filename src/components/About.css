@@ -1,0 +1,78 @@
+/* Profile Image */
+.myImg {
+  height: 25rem;
+  width: 25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.myImg img {
+  height: 25rem;
+  width: 25rem;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #00040f;
+}
+
+/* Responsive Layout */
+.intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+@media (max-width: 768px) {
+  .intro {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .myImg {
+    order: 1;
+    height: 18rem;
+    width: 18rem;
+    margin: 0 auto;
+    margin-top: 1rem;
+  }
+
+  .INTRO {
+    order: 2;
+  }
+
+  .myImg img {
+    height: 18rem;
+    width: 18rem;
+  }
+}
+
+/* Typing Text Gradient */
+.typing-text {
+  background: linear-gradient(90deg, #00bcd4, #3f51b5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  display: inline;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/* Blinking Cursor */
+.blinking-cursor {
+  font-weight: bold;
+  color: #00bcd4; /* Matches the text gradient */
+  margin-left: 2px;
+  animation: blink 0.7s infinite; /* Blinking animation */
+}
+
+/* Blinking Animation */
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
