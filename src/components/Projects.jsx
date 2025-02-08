@@ -1,4 +1,4 @@
-import Project_prop from "./project_prop";
+import Project_prop from "./Project_prop";
 import Tooltip from "@mui/material/Tooltip";
 import IconButton from "@mui/material/IconButton";
 import AOS from "aos";
