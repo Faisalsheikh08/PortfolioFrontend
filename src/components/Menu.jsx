@@ -21,7 +21,7 @@ const Menu = () => {
           <a href="#about">Home</a>
         </li>
         <li>
-          <a href="#experience">Experience</a>
+          <a href="#experience">Skills</a>
         </li>
         <li>
           <a href="#education">Education</a>
@@ -29,9 +29,9 @@ const Menu = () => {
         <li>
           <a href="#projects">Projects</a>
         </li>
-        <li>
+{/*         <li>
           <a href="#contact">Contact</a>
-        </li>
+        </li> */}
         <button
           className="text-xl font-semibold tracking-widest"
           onClick={handleTheme}
