@@ -19,7 +19,7 @@ export default function ContactPage() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
-    setStatus("Sending...");
+    //setStatus("Sending...");
 
     try {
       const response = await axios.post(
