@@ -1,4 +1,4 @@
-/* General page styling */
+        /* General page styling */
 .contact-container {
   min-height: 100vh;
   display: flex;
@@ -103,13 +103,18 @@
   margin-bottom: 12px;
 }
 
-/* Light mode inputs */
+/* Ensure text is visible in both dark and light modes */
+.contact-form-container input,
+.contact-form-container textarea {
+  color: white; /* Dark mode text color */
+}
+
 @media (prefers-color-scheme: light) {
   .contact-form-container input,
   .contact-form-container textarea {
     background: none; /* No background in light mode */
     border: 1px solid #ccc;
-    color: black;
+    color: black; /* Light mode text color */
   }
 }
 
