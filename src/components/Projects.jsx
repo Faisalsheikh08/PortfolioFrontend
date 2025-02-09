@@ -32,11 +32,11 @@ const Projects = () => {
           data-aos="zoom-out-down"
         >
           <Project_prop
-            title="Portfolio Website"
-            para="Built with React & Tailwind CSS, this responsive portfolio showcases my skills. It reflects my passion for web development. Check out my work and let's collaborate!"
+            title="Portfolio"
+            para="Built with React & Tailwind CSS, this responsive portfolio showcases my skills. It reflects my passion for web development."
             img="https://i.ibb.co/czSGj0H/portfolio.jpg"
             link=""
-            github_link=""
+            github_link="https://github.com/Faisalsheikh08/portfolioFrontend.git"
             react={
               <Tooltip title="React" arrow>
                 <IconButton>
@@ -89,7 +89,7 @@ const Projects = () => {
           />
           <Project_prop
             title="Wanderlust"
-            para="Find and book unique stays worldwide, from cozy apartments to luxury villas. Easily list your property and connect with travelers for a seamless booking experience!"
+            para="Find and book unique stays worldwide, from cozy apartments to luxury villas. Easily list your property"
             img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ0IdvcEQmVbLi0nSjv8tt4LRnJuUMcMJnXQ&s"
             link="https://fsswanderlustproj.onrender.com/listings"
             github_link="https://github.com/Faisalsheikh08/FssWanderlustProj.git"
