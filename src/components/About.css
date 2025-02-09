@@ -47,6 +47,35 @@
   }
 }
 
+/* Keep Desktop Font Sizes Unchanged */
+.INTRO h5 {
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.INTRO h3 {
+  font-size: 70px;
+  line-height: 80px;
+}
+
+/* Reduce Only for Mobile */
+@media (max-width: 768px) {
+  .INTRO h5 {
+    font-size: 38px; /* Slight reduction */
+    line-height: 48px;
+  }
+
+  .INTRO h3 {
+    font-size: 65px; /* Slight reduction */
+    line-height: 75px;
+  }
+
+  /* Reduce Typing Text Size for Mobile */
+  .typing-text {
+    font-size: 28px; /* Only for mobile */
+  }
+}
+
 /* Typing Text Gradient */
 .typing-text {
   background: linear-gradient(90deg, #00bcd4, #3f51b5);
@@ -56,14 +85,21 @@
   display: inline;
   white-space: nowrap;
   overflow: hidden;
+  font-size: 30px; /* Unchanged for desktop */
+}
+
+@media (max-width: 768px) {
+  .typing-text {
+    font-size: 28px; /* Only slight reduction for mobile */
+  }
 }
 
 /* Blinking Cursor */
 .blinking-cursor {
   font-weight: bold;
-  color: #00bcd4; /* Matches the text gradient */
+  color: #00bcd4;
   margin-left: 2px;
-  animation: blink 0.7s infinite; /* Blinking animation */
+  animation: blink 0.7s infinite;
 }
 
 /* Blinking Animation */
